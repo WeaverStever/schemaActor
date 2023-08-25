@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Bill Murray",
+  "performerIn": {
+    "@type": [
+      "Movie",
+      "Event"
+    ],
+    "name": "Ghostbusters",
+    "sameAs": "http://en.wikipedia.org/wiki/Ghostbusters",
+    "startDate": "1984-06-08",
+    "Location": "New York City",
+    "image": "http://example.com/image.jpg",
+    "actor": {
+      "@type": "PerformanceRole",
+      "actor": {
+        "@type": "Person",
+        "name": "Bill Murray"
+      },
+      "characterName": "Dr. Peter Venkman"
+    }
+  }
+}
